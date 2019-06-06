@@ -28,7 +28,7 @@ class HomeViewController: UIViewController {
   
   func setupUI() {
     self.view.backgroundColor = .black
-    title = "Welcome to BrastleWark"
+    title = "BrastleWark"
     
     self.navigationController?.navigationBar.prefersLargeTitles = true
     self.navigationController?.navigationItem.largeTitleDisplayMode = .always

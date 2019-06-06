@@ -32,6 +32,8 @@ class DetailViewController: UIViewController {
     
     func setupUI() {
         
+        title = gnome.name
+        
         nameLbl.text = gnome.name
         idLbl.text = "ID: \(gnome.id ?? 10) Age: \(gnome.age ?? 100)"
         whLbl.text = "Weigth: \(gnome.weight ?? 10) Height: \(gnome.height ?? 10)"
