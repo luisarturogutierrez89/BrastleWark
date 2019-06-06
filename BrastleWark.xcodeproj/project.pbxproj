@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01768989B736A83AA14478CD /* Pods_BrastleWarkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18274676A2EDC9A5D87E757C /* Pods_BrastleWarkTests.framework */; };
+		09B80F97FA8571DE5868C4F9 /* Pods_BrastleWark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14A5847D4DF1E42CEA2F6DB /* Pods_BrastleWark.framework */; };
+		7927764222A9491800F99054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7927764122A9491800F99054 /* AppDelegate.swift */; };
+		7927764422A9491900F99054 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7927764322A9491900F99054 /* HomeViewController.swift */; };
+		7927764722A9491A00F99054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7927764522A9491A00F99054 /* Main.storyboard */; };
+		7927764A22A9491C00F99054 /* BrastleWark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7927764822A9491B00F99054 /* BrastleWark.xcdatamodeld */; };
+		7927764C22A9499400F99054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7927764B22A9499400F99054 /* Assets.xcassets */; };
+		7927764F22A9499400F99054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7927764D22A9499400F99054 /* LaunchScreen.storyboard */; };
+		7927765A22A9499C00F99054 /* BrastleWarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7927765922A9499C00F99054 /* BrastleWarkTests.swift */; };
+		7927766522A9499C00F99054 /* BrastleWarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7927766422A9499C00F99054 /* BrastleWarkUITests.swift */; };
+		7927767622A9538100F99054 /* Gnome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7927767522A9538100F99054 /* Gnome.swift */; };
+		7927767922A9602A00F99054 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7927767822A9602A00F99054 /* ServiceManager.swift */; };
+		7927767B22A9609F00F99054 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7927767A22A9609F00F99054 /* Globals.swift */; };
+		793DADB422A978EA0042D004 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793DADB322A978EA0042D004 /* HomePresenter.swift */; };
+		9DC8E5CAB8B82B804D524FE7 /* Pods_BrastleWarkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF879A4545BA80A6F0BC95C3 /* Pods_BrastleWarkUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7927765622A9499C00F99054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7927763622A9491600F99054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7927763D22A9491700F99054;
+			remoteInfo = BrastleWark;
+		};
+		7927766122A9499C00F99054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7927763622A9491600F99054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7927763D22A9491700F99054;
+			remoteInfo = BrastleWark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ED19698D988318E92014210 /* Pods-BrastleWarkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastleWarkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrastleWarkUITests/Pods-BrastleWarkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		153033088BC6161F5076A3AD /* Pods-BrastleWarkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastleWarkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrastleWarkTests/Pods-BrastleWarkTests.release.xcconfig"; sourceTree = "<group>"; };
+		18274676A2EDC9A5D87E757C /* Pods_BrastleWarkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrastleWarkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C26AA9B4B52B964BF90FA7 /* Pods-BrastleWarkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastleWarkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrastleWarkUITests/Pods-BrastleWarkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		409763E22EEA2AA602CE55B9 /* Pods-BrastleWarkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastleWarkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrastleWarkTests/Pods-BrastleWarkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C354159C2D68F6664DF8092 /* Pods-BrastleWark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastleWark.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrastleWark/Pods-BrastleWark.release.xcconfig"; sourceTree = "<group>"; };
+		7927763E22A9491800F99054 /* BrastleWark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrastleWark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7927764122A9491800F99054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7927764322A9491900F99054 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7927764622A9491A00F99054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7927764922A9491B00F99054 /* BrastleWark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrastleWark.xcdatamodel; sourceTree = "<group>"; };
+		7927764B22A9499400F99054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7927764E22A9499400F99054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7927765022A9499500F99054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7927765522A9499C00F99054 /* BrastleWarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrastleWarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7927765922A9499C00F99054 /* BrastleWarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrastleWarkTests.swift; sourceTree = "<group>"; };
+		7927765B22A9499C00F99054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7927766022A9499C00F99054 /* BrastleWarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrastleWarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7927766422A9499C00F99054 /* BrastleWarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrastleWarkUITests.swift; sourceTree = "<group>"; };
+		7927766622A9499C00F99054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7927767522A9538100F99054 /* Gnome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gnome.swift; sourceTree = "<group>"; };
+		7927767822A9602A00F99054 /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		7927767A22A9609F00F99054 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		793DADB322A978EA0042D004 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		BF879A4545BA80A6F0BC95C3 /* Pods_BrastleWarkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrastleWarkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D58B5EF8999EFA4761BE58 /* Pods-BrastleWark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastleWark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrastleWark/Pods-BrastleWark.debug.xcconfig"; sourceTree = "<group>"; };
+		F14A5847D4DF1E42CEA2F6DB /* Pods_BrastleWark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrastleWark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7927763B22A9491700F99054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B80F97FA8571DE5868C4F9 /* Pods_BrastleWark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7927765222A9499C00F99054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01768989B736A83AA14478CD /* Pods_BrastleWarkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7927765D22A9499C00F99054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC8E5CAB8B82B804D524FE7 /* Pods_BrastleWarkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EAC89403B690B2CE601DEB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8D58B5EF8999EFA4761BE58 /* Pods-BrastleWark.debug.xcconfig */,
+				5C354159C2D68F6664DF8092 /* Pods-BrastleWark.release.xcconfig */,
+				409763E22EEA2AA602CE55B9 /* Pods-BrastleWarkTests.debug.xcconfig */,
+				153033088BC6161F5076A3AD /* Pods-BrastleWarkTests.release.xcconfig */,
+				23C26AA9B4B52B964BF90FA7 /* Pods-BrastleWarkUITests.debug.xcconfig */,
+				0ED19698D988318E92014210 /* Pods-BrastleWarkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7927763522A9491600F99054 = {
+			isa = PBXGroup;
+			children = (
+				7927764022A9491800F99054 /* BrastleWark */,
+				7927765822A9499C00F99054 /* BrastleWarkTests */,
+				7927766322A9499C00F99054 /* BrastleWarkUITests */,
+				7927763F22A9491800F99054 /* Products */,
+				2EAC89403B690B2CE601DEB1 /* Pods */,
+				C503D47995FC7B342D6182F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7927763F22A9491800F99054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7927763E22A9491800F99054 /* BrastleWark.app */,
+				7927765522A9499C00F99054 /* BrastleWarkTests.xctest */,
+				7927766022A9499C00F99054 /* BrastleWarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7927764022A9491800F99054 /* BrastleWark */ = {
+			isa = PBXGroup;
+			children = (
+				7927767722A95FF800F99054 /* Network */,
+				7927767422A9535000F99054 /* Models */,
+				7927767222A9530B00F99054 /* Controllers */,
+				7927764122A9491800F99054 /* AppDelegate.swift */,
+				7927764522A9491A00F99054 /* Main.storyboard */,
+				7927764B22A9499400F99054 /* Assets.xcassets */,
+				7927764D22A9499400F99054 /* LaunchScreen.storyboard */,
+				7927765022A9499500F99054 /* Info.plist */,
+				7927764822A9491B00F99054 /* BrastleWark.xcdatamodeld */,
+			);
+			path = BrastleWark;
+			sourceTree = "<group>";
+		};
+		7927765822A9499C00F99054 /* BrastleWarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				7927765922A9499C00F99054 /* BrastleWarkTests.swift */,
+				7927765B22A9499C00F99054 /* Info.plist */,
+			);
+			path = BrastleWarkTests;
+			sourceTree = "<group>";
+		};
+		7927766322A9499C00F99054 /* BrastleWarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7927766422A9499C00F99054 /* BrastleWarkUITests.swift */,
+				7927766622A9499C00F99054 /* Info.plist */,
+			);
+			path = BrastleWarkUITests;
+			sourceTree = "<group>";
+		};
+		7927767222A9530B00F99054 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7927767322A9532D00F99054 /* Home */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7927767322A9532D00F99054 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7927764322A9491900F99054 /* HomeViewController.swift */,
+				793DADB322A978EA0042D004 /* HomePresenter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7927767422A9535000F99054 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7927767522A9538100F99054 /* Gnome.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7927767722A95FF800F99054 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7927767822A9602A00F99054 /* ServiceManager.swift */,
+				7927767A22A9609F00F99054 /* Globals.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C503D47995FC7B342D6182F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F14A5847D4DF1E42CEA2F6DB /* Pods_BrastleWark.framework */,
+				18274676A2EDC9A5D87E757C /* Pods_BrastleWarkTests.framework */,
+				BF879A4545BA80A6F0BC95C3 /* Pods_BrastleWarkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7927763D22A9491700F99054 /* BrastleWark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7927766922A9499C00F99054 /* Build configuration list for PBXNativeTarget "BrastleWark" */;
+			buildPhases = (
+				E5C288C9EC7294F9E8C06E56 /* [CP] Check Pods Manifest.lock */,
+				7927763A22A9491700F99054 /* Sources */,
+				7927763B22A9491700F99054 /* Frameworks */,
+				7927763C22A9491700F99054 /* Resources */,
+				70964342B0BE01D6464C277C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrastleWark;
+			productName = BrastleWark;
+			productReference = 7927763E22A9491800F99054 /* BrastleWark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7927765422A9499C00F99054 /* BrastleWarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7927766C22A9499C00F99054 /* Build configuration list for PBXNativeTarget "BrastleWarkTests" */;
+			buildPhases = (
+				CCECD0B832F181CFF5DE6673 /* [CP] Check Pods Manifest.lock */,
+				7927765122A9499C00F99054 /* Sources */,
+				7927765222A9499C00F99054 /* Frameworks */,
+				7927765322A9499C00F99054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7927765722A9499C00F99054 /* PBXTargetDependency */,
+			);
+			name = BrastleWarkTests;
+			productName = BrastleWarkTests;
+			productReference = 7927765522A9499C00F99054 /* BrastleWarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7927765F22A9499C00F99054 /* BrastleWarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7927766F22A9499C00F99054 /* Build configuration list for PBXNativeTarget "BrastleWarkUITests" */;
+			buildPhases = (
+				D6031841CCE85874F0F6852D /* [CP] Check Pods Manifest.lock */,
+				7927765C22A9499C00F99054 /* Sources */,
+				7927765D22A9499C00F99054 /* Frameworks */,
+				7927765E22A9499C00F99054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7927766222A9499C00F99054 /* PBXTargetDependency */,
+			);
+			name = BrastleWarkUITests;
+			productName = BrastleWarkUITests;
+			productReference = 7927766022A9499C00F99054 /* BrastleWarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7927763622A9491600F99054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Luis Arturo Gutiérrez";
+				TargetAttributes = {
+					7927763D22A9491700F99054 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7927765422A9499C00F99054 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7927763D22A9491700F99054;
+					};
+					7927765F22A9499C00F99054 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7927763D22A9491700F99054;
+					};
+				};
+			};
+			buildConfigurationList = 7927763922A9491600F99054 /* Build configuration list for PBXProject "BrastleWark" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7927763522A9491600F99054;
+			productRefGroup = 7927763F22A9491800F99054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7927763D22A9491700F99054 /* BrastleWark */,
+				7927765422A9499C00F99054 /* BrastleWarkTests */,
+				7927765F22A9499C00F99054 /* BrastleWarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7927763C22A9491700F99054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7927764F22A9499400F99054 /* LaunchScreen.storyboard in Resources */,
+				7927764C22A9499400F99054 /* Assets.xcassets in Resources */,
+				7927764722A9491A00F99054 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7927765322A9499C00F99054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7927765E22A9499C00F99054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70964342B0BE01D6464C277C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BrastleWark/Pods-BrastleWark-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrastleWark/Pods-BrastleWark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCECD0B832F181CFF5DE6673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrastleWarkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6031841CCE85874F0F6852D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrastleWarkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5C288C9EC7294F9E8C06E56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrastleWark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7927763A22A9491700F99054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793DADB422A978EA0042D004 /* HomePresenter.swift in Sources */,
+				7927767622A9538100F99054 /* Gnome.swift in Sources */,
+				7927764A22A9491C00F99054 /* BrastleWark.xcdatamodeld in Sources */,
+				7927767B22A9609F00F99054 /* Globals.swift in Sources */,
+				7927764422A9491900F99054 /* HomeViewController.swift in Sources */,
+				7927764222A9491800F99054 /* AppDelegate.swift in Sources */,
+				7927767922A9602A00F99054 /* ServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7927765122A9499C00F99054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7927765A22A9499C00F99054 /* BrastleWarkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7927765C22A9499C00F99054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7927766522A9499C00F99054 /* BrastleWarkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7927765722A9499C00F99054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7927763D22A9491700F99054 /* BrastleWark */;
+			targetProxy = 7927765622A9499C00F99054 /* PBXContainerItemProxy */;
+		};
+		7927766222A9499C00F99054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7927763D22A9491700F99054 /* BrastleWark */;
+			targetProxy = 7927766122A9499C00F99054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7927764522A9491A00F99054 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7927764622A9491A00F99054 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7927764D22A9499400F99054 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7927764E22A9499400F99054 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7927766722A9499C00F99054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7927766822A9499C00F99054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7927766A22A9499C00F99054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D58B5EF8999EFA4761BE58 /* Pods-BrastleWark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H46GZ2RY2C;
+				INFOPLIST_FILE = BrastleWark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KrakenBuild.BrastleWark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7927766B22A9499C00F99054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C354159C2D68F6664DF8092 /* Pods-BrastleWark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H46GZ2RY2C;
+				INFOPLIST_FILE = BrastleWark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KrakenBuild.BrastleWark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7927766D22A9499C00F99054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409763E22EEA2AA602CE55B9 /* Pods-BrastleWarkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H46GZ2RY2C;
+				INFOPLIST_FILE = BrastleWarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KrakenBuild.BrastleWarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrastleWark.app/BrastleWark";
+			};
+			name = Debug;
+		};
+		7927766E22A9499C00F99054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 153033088BC6161F5076A3AD /* Pods-BrastleWarkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H46GZ2RY2C;
+				INFOPLIST_FILE = BrastleWarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KrakenBuild.BrastleWarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrastleWark.app/BrastleWark";
+			};
+			name = Release;
+		};
+		7927767022A9499C00F99054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23C26AA9B4B52B964BF90FA7 /* Pods-BrastleWarkUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H46GZ2RY2C;
+				INFOPLIST_FILE = BrastleWarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KrakenBuild.BrastleWarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrastleWark;
+			};
+			name = Debug;
+		};
+		7927767122A9499C00F99054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED19698D988318E92014210 /* Pods-BrastleWarkUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H46GZ2RY2C;
+				INFOPLIST_FILE = BrastleWarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KrakenBuild.BrastleWarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrastleWark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7927763922A9491600F99054 /* Build configuration list for PBXProject "BrastleWark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7927766722A9499C00F99054 /* Debug */,
+				7927766822A9499C00F99054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7927766922A9499C00F99054 /* Build configuration list for PBXNativeTarget "BrastleWark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7927766A22A9499C00F99054 /* Debug */,
+				7927766B22A9499C00F99054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7927766C22A9499C00F99054 /* Build configuration list for PBXNativeTarget "BrastleWarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7927766D22A9499C00F99054 /* Debug */,
+				7927766E22A9499C00F99054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7927766F22A9499C00F99054 /* Build configuration list for PBXNativeTarget "BrastleWarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7927767022A9499C00F99054 /* Debug */,
+				7927767122A9499C00F99054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7927764822A9491B00F99054 /* BrastleWark.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7927764922A9491B00F99054 /* BrastleWark.xcdatamodel */,
+			);
+			currentVersion = 7927764922A9491B00F99054 /* BrastleWark.xcdatamodel */;
+			path = BrastleWark.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7927763622A9491600F99054 /* Project object */;
+}
