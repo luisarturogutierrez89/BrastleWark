@@ -22,6 +22,8 @@
 		7927767B22A9609F00F99054 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7927767A22A9609F00F99054 /* Globals.swift */; };
 		793DADB422A978EA0042D004 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793DADB322A978EA0042D004 /* HomePresenter.swift */; };
 		9DC8E5CAB8B82B804D524FE7 /* Pods_BrastleWarkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF879A4545BA80A6F0BC95C3 /* Pods_BrastleWarkUITests.framework */; };
+		D643FFBC22A9B70200A6F3EE /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643FFBB22A9B70200A6F3EE /* BasicCell.swift */; };
+		D643FFBF22A9CC6100A6F3EE /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643FFBE22A9CC6100A6F3EE /* Detail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		7927767A22A9609F00F99054 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		793DADB322A978EA0042D004 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		BF879A4545BA80A6F0BC95C3 /* Pods_BrastleWarkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrastleWarkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D643FFBB22A9B70200A6F3EE /* BasicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
+		D643FFBE22A9CC6100A6F3EE /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		E8D58B5EF8999EFA4761BE58 /* Pods-BrastleWark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrastleWark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrastleWark/Pods-BrastleWark.debug.xcconfig"; sourceTree = "<group>"; };
 		F14A5847D4DF1E42CEA2F6DB /* Pods_BrastleWark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrastleWark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -171,6 +175,7 @@
 		7927767222A9530B00F99054 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D643FFBD22A9CC4E00A6F3EE /* DetailViewController */,
 				7927767322A9532D00F99054 /* Home */,
 			);
 			path = Controllers;
@@ -179,6 +184,7 @@
 		7927767322A9532D00F99054 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D643FFBA22A9B6DD00A6F3EE /* Views */,
 				7927764322A9491900F99054 /* HomeViewController.swift */,
 				793DADB322A978EA0042D004 /* HomePresenter.swift */,
 			);
@@ -210,6 +216,22 @@
 				BF879A4545BA80A6F0BC95C3 /* Pods_BrastleWarkUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D643FFBA22A9B6DD00A6F3EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D643FFBB22A9B70200A6F3EE /* BasicCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D643FFBD22A9CC4E00A6F3EE /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D643FFBE22A9CC6100A6F3EE /* Detail.swift */,
+			);
+			path = DetailViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,7 +373,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BrastleWark/Pods-BrastleWark-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-BrastleWark/Pods-BrastleWark-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
@@ -364,7 +386,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrastleWark/Pods-BrastleWark-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrastleWark/Pods-BrastleWark-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CCECD0B832F181CFF5DE6673 /* [CP] Check Pods Manifest.lock */ = {
@@ -442,8 +464,10 @@
 			files = (
 				793DADB422A978EA0042D004 /* HomePresenter.swift in Sources */,
 				7927767622A9538100F99054 /* Gnome.swift in Sources */,
+				D643FFBF22A9CC6100A6F3EE /* Detail.swift in Sources */,
 				7927764A22A9491C00F99054 /* BrastleWark.xcdatamodeld in Sources */,
 				7927767B22A9609F00F99054 /* Globals.swift in Sources */,
+				D643FFBC22A9B70200A6F3EE /* BasicCell.swift in Sources */,
 				7927764422A9491900F99054 /* HomeViewController.swift in Sources */,
 				7927764222A9491800F99054 /* AppDelegate.swift in Sources */,
 				7927767922A9602A00F99054 /* ServiceManager.swift in Sources */,
@@ -623,7 +647,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H46GZ2RY2C;
+				DEVELOPMENT_TEAM = QA8R24999A;
 				INFOPLIST_FILE = BrastleWark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -642,7 +666,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H46GZ2RY2C;
+				DEVELOPMENT_TEAM = QA8R24999A;
 				INFOPLIST_FILE = BrastleWark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
